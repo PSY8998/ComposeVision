@@ -53,9 +53,9 @@ fun ProgressiveDotsAnimation(){
                 animationSpec = infiniteRepeatable(
                     animation = keyframes {
                         durationMillis = 2000
-                        0.0F at 0 with LinearOutSlowInEasing
-                        1.0F at 200 with LinearOutSlowInEasing
-                        0.0F at 400 with LinearOutSlowInEasing
+                        0.0F at 0 using LinearOutSlowInEasing
+                        1.0F at 200 using LinearOutSlowInEasing
+                        0.0F at 400 using LinearOutSlowInEasing
                         0.0F at 2000
                     },
                     repeatMode = RepeatMode.Restart
